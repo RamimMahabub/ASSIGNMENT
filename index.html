@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 02 - Web Components</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Assignment 02</h1>
+        <p>Fortune Generator, Stopwatch & To-Do List</p>
+    </header>
+
+    <main>
+        <!-- Fortune Generator -->
+        <section class="card fortune-section">
+            <h2>Question 1: Fortune Generator</h2>
+            <div class="fortune-wrapper">
+                <div class="fortune-box" id="fortune-box">
+                    <p id="fortune-text">Your fortune will appear here.</p>
+                </div>
+                <div class="fortune-controls">
+                    <button class="color-btn color-font" id="btn-font-color" title="Apply Theme 1"></button>
+                    <button class="color-btn color-bg" id="btn-bg-color" title="Apply Theme 2"></button>
+                    <button class="color-btn color-border" id="btn-border-color" title="Apply Theme 3"></button>
+                    <button class="color-btn color-style" id="btn-font-style" title="Apply Theme 4"></button>
+                </div>
+            </div>
+        </section>
+
+        <!--Stopwatch -->
+        <section class="card stopwatch-section">
+            <h2>Question 2: Stopwatch</h2>
+            <div class="stopwatch-display" id="stopwatch-display">0s</div>
+            <div class="controls">
+                <button id="btn-start" class="btn btn-primary">Start</button>
+                <button id="btn-stop" class="btn btn-warning">Stop</button>
+                <button id="btn-reset" class="btn btn-danger">Reset</button>
+            </div>
+        </section>
+
+        <!--To-Do List -->
+        <section class="card todo-section">
+            <h2>Question 3: To-Do List</h2>
+            <div class="todo-input-group">
+                <input type="text" id="todo-input" placeholder="Enter a new task...">
+                <button id="btn-add-task" class="btn btn-primary">Add Task</button>
+            </div>
+            <ul id="todo-list" class="todo-list">
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>RAMIM MAHABUB ID:23101480.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
