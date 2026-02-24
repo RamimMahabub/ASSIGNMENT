@@ -1,6 +1,6 @@
-
-//  Fortune Generator
-
+// ==========================================
+// Question 1: Fortune Generator (25 Marks)
+// ==========================================
 
 const fortunes = [
     "True wisdom comes not from knowledge, but from understanding.",
@@ -81,8 +81,9 @@ btnBorderColor.addEventListener('click', () => applyTheme(themes[2]));
 btnFontStyle.addEventListener('click', () => applyTheme(themes[3]));
 
 
-
-// Stopwatch 
+// ==========================================
+// Question 2: Stopwatch (35 Marks)
+// ==========================================
 
 const stopwatchDisplay = document.getElementById('stopwatch-display');
 const btnStart = document.getElementById('btn-start');
@@ -130,9 +131,9 @@ btnReset.addEventListener('click', () => {
 });
 
 
-
-//To-Do List 
-
+// ==========================================
+// Question 3: To-Do List (40 Marks)
+// ==========================================
 
 const todoInput = document.getElementById('todo-input');
 const btnAddTask = document.getElementById('btn-add-task');
